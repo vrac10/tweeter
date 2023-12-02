@@ -1,0 +1,114 @@
+ .main{
+    display: flex;
+    height: 100vh;
+    left: 0;
+    position: relative;
+ }
+ .SideBar{
+    background-color:#fafbfc;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inria Sans";
+    position: relative;
+    width: 23%;
+    border: 1px solid black;
+    color: #000000;
+    left: 0;
+    top: 0;
+
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.BUTTON{
+    width: 95%;
+    padding-block: 30px;
+    border-radius: 5px;
+
+    font-family: "Inria Sans";
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.BUTTON:hover{
+    cursor: pointer;
+    background-color: #80868994; /* Set the hover background color */
+    transform: scale(1.02); 
+    
+}
+
+
+.clicked{
+    border-color: #ffffff;
+    opacity: 100%;
+}
+
+.Nclicked{
+    border-color: #3988ff;
+
+}
+
+
+.tweeting-bar{
+    top: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 28%;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+}
+
+
+.tweeting-bar h1{
+    color: black;
+}
+
+.fixed-width-textarea {
+    width: 350px; /* Set your desired fixed width */
+    height: 150px;
+    font-size: xx-large;
+    padding-bottom: 0;
+    resize: none; /* Disable textarea resizing */
+}
+
+.tw{
+    padding-left: 20px;
+    margin-top: 70%;
+}
+
+button{
+    margin: 10px;
+    width: 300px;
+    font-size: larger;
+    height: 50px;
+}
+
+.profile-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 28%;
+    border: 1px solid black;
+    color: black;
+}
+
+.profile-bar button{
+    margin-top: 30px;
+
+
+}

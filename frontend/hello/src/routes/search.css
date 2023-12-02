@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.SearchBar{
+    color: black;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.s{
+    display: flex;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.tweets-user{
+    padding-left: 20px;
+    max-height: 100vh; /* Set a maximum height for scrollability */
+    overflow-y: auto;
+    color: rgb(64, 59, 59);
+}
+
+.main-heading{
+    color: black;
+}
+
+.s button{
+    font-size: medium;
+   margin-top: 19px;
+   width: 150px;
+}
+
+.main-search{
+    width: 470px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: large;
+}
